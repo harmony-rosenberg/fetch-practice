@@ -1,13 +1,15 @@
 export function getAllDogs() {
-    // Your code here
+    const url = "/dogs"
+    return fetch(url)
 }
 
 export function getDogNumberTwo() {
-    // Your code here
+    const url = '/dogs/2'
+    return fetch(url)
 }
 
 export function postNewDog() {
-    // Your code here
+    
 }
 
 export function postNewDogV2(name, age) {
